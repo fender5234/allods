@@ -1,0 +1,32 @@
+@mixin graphic-icon($icon, $mask: true) {
+	$value: url("../images/sprite.svg##{$icon}") no-repeat center / 100%;
+
+	@if $mask {
+		mask: $value;
+	} @else {
+		background: $value;
+	}
+}
+
+@mixin graphic-retina($filename, $extname: "webp") {
+	@supports #{$webp-support} {
+		background-image: image-set(
+			url("../img/#{$filename}.#{$extname}") 1x,
+			url("../img/#{$filename}@2x.#{$extname}") 2x
+		);
+	}
+}
+
+@mixin graphic-adaptive($filename, $extname: "webp") {
+	@include media-desktop {
+		@include graphic-retina("#{$filename}-desktop", $extname);
+	}
+
+	@include media-tablet {
+		@include graphic-retina("#{$filename}-tablet", $extname);
+	}
+
+	@include media-mobile {
+		@include graphic-retina("#{$filename}-mobile", $extname);
+	}
+}

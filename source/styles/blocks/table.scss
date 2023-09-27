@@ -1,0 +1,26 @@
+.table {
+  border-spacing: 10px 1px ;
+}
+
+.table__image {
+  display: inline-block;
+  vertical-align: inherit;
+  margin-right: 20px;
+}
+
+.table td {
+  padding: 5px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.table__head {
+  padding: 3px 8px;
+  font-size: 12px;
+  color: #671D00;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+}
+
+.table-content-row {
+  border: 1px solid rgba(103, 29, 0, 0.48);
+}

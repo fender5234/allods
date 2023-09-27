@@ -1,0 +1,29 @@
+.first-section {
+  background-image: url("../images/bg-image1.webp");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100% 100%;
+}
+
+.first-section__title {
+  margin: 0 0 18px;
+  font-size: 42px;
+  line-height: normal;
+  font-family: "RobotoCondensed-Bold", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: $color-white;
+}
+
+.first-section__subtitle {
+  margin: 0;
+  font-size: 20px;
+  line-height: normal;
+  font-family: "Roboto-Regular", sans-serif;
+  text-align: center;
+  color: $color-white;
+}
+
+.first-section__container {
+  padding: 40px 0;
+}

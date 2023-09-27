@@ -1,0 +1,35 @@
+.by-container {
+  display: flex;
+}
+
+.by-container__image {
+  margin-right: 40px;
+}
+
+.by-container__price {
+  font-size: 50px;
+  font-family: "Roboto-Regular", sans-serif;
+  text-transform: uppercase;
+  color: $color-white;
+}
+
+.by-container__button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+
+.by-container__button {
+  min-width: 180px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Roboto-Regular", sans-serif;
+  text-transform: uppercase;
+  color: $color-black;
+  background-color: #fcff00;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}

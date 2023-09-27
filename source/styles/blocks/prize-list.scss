@@ -1,0 +1,51 @@
+.prize-list {
+	max-width: 632px;
+	margin: 0 0 40px;
+	padding: 0;
+	list-style: none;
+	color: #ffffff;
+}
+
+.prize-list__item {
+	display: grid;
+	grid-template-columns: 64px 230px 1fr 1fr;
+	align-items: center;
+  margin-bottom: 1px;
+  padding: 5px;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+
+  &--title {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    border: none;
+  }
+}
+
+.prize-list__image {
+  min-width: 64px;
+}
+
+.prize-list__description {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.prize-list__scope {
+  text-align: center;
+}
+
+.prize-list__title {
+  grid-row:1;
+  grid-column: 3;
+  padding: 3px 8px;
+  font-size: 12px;
+  text-align: center;
+  color: #671d00;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+
+  &--second {
+    grid-column: 4;
+  }
+}

@@ -1,0 +1,24 @@
+@import "common/variables";
+
+@import "common/mixins/graphic";
+@import "common/mixins/interactive";
+@import "common/mixins/media";
+@import "common/mixins/visibility";
+
+@import "common/fonts";
+@import "common/global";
+
+@import "blocks/page";
+
+@import "common/utils";
+
+
+@import "blocks/container";
+@import "blocks/first-section";
+@import "blocks/logo-image";
+@import "blocks/boxes-image";
+@import "blocks/second-section";
+@import "blocks/right-side-content";
+@import "blocks/table";
+@import "blocks/prize-list";
+@import "blocks/by-container";

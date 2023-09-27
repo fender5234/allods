@@ -1,0 +1,15 @@
+.second-section {
+	background-image: url("../images/second-section-bg.webp");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: 100% 100%;
+}
+
+.second-section__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.second-section__container img {
+  height: 100%;
+}
